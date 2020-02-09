@@ -1,0 +1,534 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: #404040;
+  scroll-behavior: smooth;
+}
+.clear {
+  clear: both;
+}
+img::selection {
+  background-color: transparent;
+}
+img::-moz-selection {
+  background-color: transparent;
+}
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #000;
+}
+td,
+th {
+  border: 1px solid #000;
+  padding: 4px 8px;
+}
+.inner {
+  background-color: white;
+  padding: 20px 0px;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  width: 80%;
+  margin: auto;
+}
+.inner .text {
+  width: 80%;
+  margin: auto;
+}
+.map-b {
+  position: relative;
+  padding-bottom: 40%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.map-b iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.sandwich {
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+  line-height: 112px;
+  vertical-align: middle;
+}
+.sideMenu {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 200px;
+  z-index: 1;
+  margin: 0;
+  padding-top: 30px;
+  list-style: none;
+  padding-left: 0;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  background-color: #646464;
+}
+.sideMenu .logo {
+  height: 80px;
+  display: block;
+  margin: auto;
+  margin-top: -10px;
+}
+.sideMenu .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.sideMenu .close img {
+  width: 24px;
+  height: auto;
+}
+.sideMenu li {
+  padding: 15px 10px;
+  position: relative;
+  cursor: pointer;
+}
+.sideMenu li:last-of-type {
+  margin-bottom: 0;
+}
+.sideMenu li:after {
+  content: '';
+  width: 100%;
+  border-bottom: 1px solid white;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+.sideMenu li:hover a {
+  color: #c8c8c8;
+}
+.sideMenu li a {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.dropdown-content {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  background-color: #646464;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+.dropdown-content ul {
+  padding: 0;
+  line-height: 1;
+}
+.dropdown-content ul li {
+  font-size: 14px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin-right: 0;
+  cursor: pointer;
+}
+.dropdown-content ul li:last-of-type {
+  border-bottom: none;
+}
+.dropdown-content ul li a.link {
+  font-size: 14px;
+}
+header .logo img {
+  padding: 10px 0;
+  height: 100px;
+}
+header .inner {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+}
+header .inner .text {
+  margin: 0;
+  width: 100%;
+}
+header .inner .text .lang {
+  float: left;
+  margin-left: 10px;
+  font-size: 0;
+  line-height: 36px;
+}
+header .inner .text .lang a {
+  display: inline-block;
+  margin-right: 5px;
+  height: 12px;
+}
+header .inner .text .lang a img {
+  cursor: pointer;
+}
+header .inner .text .lang a img:last-of-type {
+  margin: 0;
+}
+header .inner .text .number {
+  font-size: 14px;
+  float: right;
+  margin-right: 10px;
+}
+header .inner .text .number span {
+  display: block;
+}
+header .inner nav {
+  float: right;
+  line-height: 112px;
+}
+header .inner nav ul {
+  margin: 0;
+}
+header .inner nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 8px;
+}
+header .inner nav ul li.dropdown {
+  position: relative;
+}
+header .inner nav ul li.dropdown:hover .dropdown-content {
+  display: block;
+}
+header .inner nav ul li.dropdown:hover .dropdown-content a {
+  color: white;
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+header .inner nav ul li.dropdown:hover .dropdown-content li:hover a {
+  color: #c8c8c8;
+}
+header .inner nav ul li:last-of-type {
+  margin-right: 0px;
+}
+header .inner nav ul li:last-of-type a {
+  border: none;
+}
+header .inner nav ul li:hover a {
+  color: #c8c8c8;
+  transition: all 0.2s;
+}
+header .inner nav ul li:hover a:after {
+  content: '';
+  width: 100%;
+  border-bottom: 1px solid #c8c8c8;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+header .inner nav ul li:hover a.link:after {
+  border-bottom: 0;
+}
+header .inner nav ul li a {
+  color: #646464;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  padding-left: 0;
+  position: relative;
+}
+header .inner nav ul li a:after {
+  content: '';
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  transition: all 0.2s;
+}
+section.slideShow {
+  margin-top: 20px;
+}
+section.slideShow .inner {
+  width: 80%;
+  padding: 0;
+  font-size: 0;
+}
+section.slideShow .inner .slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  display: none;
+  min-height: 233px;
+  position: relative;
+}
+section.slideShow .inner .slide .info {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30%;
+  padding: 30px 0;
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+section.slideShow .inner .slide .info h6 {
+  font-size: 20px;
+  margin: 0;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+section.slideShow .inner .slide .info p {
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+  line-height: 1.4;
+}
+section.slideShow .inner .slide1 {
+  background-image: url(../img/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.slideShow .inner .slide2 {
+  background-image: url(../img/slide2.jpg);
+}
+section.slideShow .inner .slide3 {
+  background-image: url(../img/slide3.jpg);
+}
+section.slideShow .inner .slide4 {
+  background-image: url(../img/slide4.jpg);
+}
+section.slideShow .inner .slide5 {
+  background-image: url(../img/slide5.jpg);
+}
+section {
+  margin-bottom: 20px;
+}
+section .inner {
+  background-color: white;
+  padding: 20px 0px;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  width: 80%;
+}
+section .inner .text {
+  width: 80%;
+  margin: auto;
+  vertical-align: middle;
+}
+section .inner .text h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0 30px 0;
+  position: relative;
+  text-align: top;
+}
+section .inner .text h2:after {
+  content: '';
+  width: 100%;
+  border-bottom: 3px solid #646464;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+}
+section .inner .text h2 a {
+  color: #404040;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+section .inner .text h2 a:hover {
+  text-decoration: underline;
+}
+section .inner .text h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+section .inner .text p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+section .inner .text img {
+  margin: 0px 50px;
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+section .inner .text img:first-of-type {
+  margin: 0;
+}
+section .inner .text li {
+  font-size: 18px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.contacts ul {
+  list-style: none;
+  padding: 0;
+}
+.contacts ul li {
+  margin-bottom: 10px;
+}
+.list .inner .text li {
+  margin-bottom: 20px;
+}
+section.calculator .inner .text {
+  font-size: 0;
+}
+section.calculator .inner .text .rightSide {
+  display: inline-block;
+  width: 45%;
+  font-size: 18px;
+  margin-right: 10%;
+  vertical-align: top;
+}
+section.calculator .inner .text .rightSide form div {
+  margin-bottom: 20px;
+}
+section.calculator .inner .text .rightSide form div select.special {
+  width: auto;
+}
+section.calculator .inner .text .rightSide form div span {
+  display: inline-block;
+  font-size: 14px;
+  width: 30%;
+  max-width: 80px;
+}
+section.calculator .inner .text .leftSide {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+section.calculator .inner .text .leftSide p {
+  font-size: 14px;
+}
+section.calculator .inner .text p {
+  font-size: 14px;
+}
+section.calculator .inner .text .calculate {
+  border: none;
+  background-color: #646464;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.1s;
+  outline: none;
+}
+section.calculator .inner .text .calculate:hover {
+  background-color: #95a5a6;
+}
+footer {
+  font-size: 0;
+  margin-bottom: 30px;
+}
+footer .inner {
+  background-color: white;
+}
+footer img {
+  width: 10%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+@media (max-width: 1117px) {
+  /* PLANSETEM IR TELEFONAM */
+  header .inner nav {
+    display: none;
+  }
+  table td,
+  table th {
+    padding: 4px 8px;
+    width: 60%;
+  }
+  .sandwich {
+    display: inline-block;
+  }
+  section.slideShow .inner .slide .info {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  section.slideShow .inner .slide .info h6 {
+    margin: auto;
+  }
+  section.slideShow .inner .slide .info p {
+    display: none;
+  }
+  section.calculator .inner .text {
+    font-size: 0;
+  }
+  section.calculator .inner .text .rightSide {
+    display: block;
+    width: 100%;
+  }
+  section.calculator .inner .text .leftSide {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 1117pxpx) and (min-width: 667px) {
+  footer .inner {
+    width: 90%;
+  }
+  footer .inner img {
+    width: 20%;
+  }
+  section.slideShow .inner {
+    width: 90%;
+  }
+  section .inner {
+    width: 90%;
+  }
+}
+@media (max-width: 667px) {
+  /* TIK TELEFONAM */
+  footer {
+    display: none;
+  }
+  section.slideShow .inner {
+    width: 100%;
+  }
+  section .inner {
+    width: 95%;
+  }
+  section .inner .text img {
+    margin: 0;
+  }
+  section.calculator .inner .text {
+    font-size: 0;
+  }
+  section.calculator .inner .text h2 {
+    font-size: 24px;
+  }
+  section.calculator .inner .text .rightSide form div select {
+    width: 100%;
+  }
+  section.calculator .inner .text .rightSide form div select.special {
+    width: 100%;
+  }
+  section.calculator .inner .text .rightSide form div span {
+    width: 40%;
+  }
+}
