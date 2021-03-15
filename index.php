@@ -40,7 +40,7 @@
             <a href="https://www.iaai.com/" target="_blank"><img src="img/a6.png"></a>
             <h4>Laisvalaikio transporto priemonės</h4>
             <p>
-                Autovisuma.lt jums siūlo įsigyti įvairios laisvalaikio technikos iš Amerikos. Jūs galite įsigyti įvairius motociklus: keturračius, sniego motociklus, vandens motociklus, čioperius. Taip pat automobilius išvykoms į gamtą ir kelionėms su šeima (kemperius). Galime pristatyti atsargines dalis ir aksesuarus jiems. Mūsų vadybininkai suras jums reikalingą laisvalaikio priemonę pačiomis pigiausiomis kainomis ir pristatys į jums reikalingą vietą.
+                Autopara.lt jums siūlo įsigyti įvairios laisvalaikio technikos iš Amerikos. Jūs galite įsigyti įvairius motociklus: keturračius, sniego motociklus, vandens motociklus, čioperius. Taip pat automobilius išvykoms į gamtą ir kelionėms su šeima (kemperius). Galime pristatyti atsargines dalis ir aksesuarus jiems. Mūsų vadybininkai suras jums reikalingą laisvalaikio priemonę pačiomis pigiausiomis kainomis ir pristatys į jums reikalingą vietą.
             </p>
             <p>
                 Jūsų išsirinkta technika jums pageidaujant gali būti apžiūrėta atskirai mūsų atstovų Amerikoje ir papildomos nuotraukos atsiųstos jums asmeniškai. Technika įsigyta Amerikoje turi pranasumą prieš  europinę, nes ji yra geriau prižiūrėta, laiku atliekamos techninės apžiūros ir pakeičiamos detalės.Užsisakykite jums reikalingą techniką, mes ją jums surasime ir pristatysime trumpiausiu laiku.

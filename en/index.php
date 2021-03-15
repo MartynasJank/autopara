@@ -40,7 +40,7 @@
                     <a href="https://www.iaai.com/" target="_blank"><img src="../img/a6.png"></a>
                     <h4>The vehicles of leisure</h4>
                     <p>
-                        Autovisuma.lt offer you to purchase various vehicles of leisure from USA. You can buy a variety of motorcycles:quadricycle, snowmobiles, jet skis, choppers,boats and campers for family trips. We deliver spare parts and accessories for them. Our managers will find the vehicle of leisure you are interested in at the lowest price and delivery it to your required location.
+                        Autopara.lt offer you to purchase various vehicles of leisure from USA. You can buy a variety of motorcycles:quadricycle, snowmobiles, jet skis, choppers,boats and campers for family trips. We deliver spare parts and accessories for them. Our managers will find the vehicle of leisure you are interested in at the lowest price and delivery it to your required location.
                     </p>
                     <p>
                         Your chosen vehicle can be examined separately on your request of our representatives in America and additional pictures can be sent to you personaly. Americans vehicles has an advantage over Europeans, because it is better maintained,timely technical inspection and All necesary parts are replaced over new.Make order of your equipment, we will search it for you and deliver on the shortest time.
@@ -60,7 +60,7 @@
                         <li>address of registration: Vėjo str. 12-2, Ginduliai, LT-91284 Klaipėdos raj</li>
                         <li>For transportation and orders questions tel.:  +37060743204</li>
                         <li>Fax:+370 46 492 876</li>
-                        <li>E-mail: info@autovisuma.lt</li>
+                        <li>E-mail: info@autopara.lt</li>
                         <li>Skype: autocopart</li>
                         <li class="find">How to find us:</li>
                     </ul>

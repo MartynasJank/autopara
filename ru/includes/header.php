@@ -22,7 +22,6 @@
                     <li><a href="index#paslaugos">Услуги</a></li>
                     <li><a href="index#contacts">Контакты</a></li>
                     <li><a href="dukru">Ч.З.В</a></li>
-                    <li><a href="#">Калькулятор транспортных расходов</a></li>
                     <li><a href="terminairu">Объяснение термин аукциона</a></li>
                     <li><a href="taisyklesru">Правила заказ транспортных средств</a></li>
             </ul>
@@ -42,7 +41,6 @@
                                     <a href="#">Полезная информация</a>
                                     <div class="dropdown-content">
                                         <ul>
-                                            <li><a class="link" href="#">Калькулятор транспортных расходов</a></li>
                                             <li><a class="link" href="terminairu">Объяснение термин аукциона</a></li>
                                             <li><a class="link" href="taisyklesru">Правила заказ транспортных средств</a></li>
                                             <li><a class="link" href="dukru">Ч.З.В</a></li>

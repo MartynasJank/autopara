@@ -22,7 +22,6 @@
                     <li><a href="index#paslaugos">Services</a></li>
                     <li><a href="index#contacts">Contacts</a></li>
                     <li><a href="duken">F.A.Q.</a></li>
-                    <li><a href="#">Transport cost calculator</a></li>
                     <li><a href="terminaien">Explanations of auctions terms</a></li>
                     <li><a href="taisyklesen">Rules of vehicles Order</a></li>
             </ul>
@@ -42,7 +41,6 @@
                                     <a href="#">Useful information</a>
                                     <div class="dropdown-content">
                                         <ul>
-                                            <li><a class="link" href="#">Transport cost calculator</a></li>
                                             <li><a class="link" href="terminaien">Explanations of auctions terms</a></li>
                                             <li><a class="link" href="taisyklesen">Rules of vehicles Order</a></li>
                                             <li><a class="link" href="duken">F.A.Q.</a></li>

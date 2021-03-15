@@ -3,7 +3,7 @@
     <head>
         <title>Autopara</title>
         <meta charset="UTF-8">
-        <meta name="keywords" content="autovisuma.lt, autopara.lt, autovisuma, autopara, automobiliai is amerikos, automobiliu dalys, nauji automobiliai, deveti dauzti automobiliai,is Amerikos, Automobiliai, detales, dauzti, deveti, pirkimas, parplugdymas, Amerika, auto is jav, automobiliai is jav">
+        <meta name="keywords" content="autopara.lt, autopara, automobiliai is amerikos, automobiliu dalys, nauji automobiliai, deveti dauzti automobiliai,is Amerikos, Automobiliai, detales, dauzti, deveti, pirkimas, parplugdymas, Amerika, auto is jav, automobiliai is jav">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,6 @@
                     <li><a href="index#paslaugos">Paslaugos</a></li>
                     <li><a href="index#contacts">Kontaktai</a></li>
                     <li><a href="duk">D.U.K.</a></li>
-                    <li><a href="kastai">Transportavimo kaštų skaičiavimas</a></li>
                     <li><a href="terminai">Aukcionų terminų paaiškinimai</a></li>
                     <li><a href="taisykles">Transporto priemonių užsakymo taisyklės</a></li>
             </ul>
@@ -43,7 +42,6 @@
                                     <a href="#">Naudinga informacija</a>
                                     <div class="dropdown-content">
                                         <ul>
-                                            <li><a class="link" href="kastai">Transportavimo kaštų skaičiavimas</a></li>
                                             <li><a class="link" href="terminai">Aukcionų terminų paaiškinimai</a></li>
                                             <li><a class="link" href="taisykles">Transporto priemonių užsakymo taisyklės</a></li>
                                             <li><a class="link" href="duk">D.U.K.</a></li>
